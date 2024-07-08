@@ -10,8 +10,10 @@ This repository contains the code for a chatbot built using TensorFlow/Keras, NL
 1. Clone the repository:
    
    ``git clone https://github.com/ParthChande/ChatBot``
+   
    ``cd chatbot-project``
 3. Install the required packages:
+   
    ``pip install -r requirements.txt``
 # Usage
 1. Ensure you have the intents.json file in the project directory. This file contains the predefined intents and responses.
@@ -30,12 +32,14 @@ This repository contains the code for a chatbot built using TensorFlow/Keras, NL
 - Tkinter
 # Code Overview
 __Preprocessing__
+
 The script preprocesses the data from intents.json:
 
 - Tokenizes and lemmatizes the patterns.
 - Creates a bag of words model.
 - Converts class labels to one-hot encoding.
 __Model Training__
+
 The script trains a Sequential model with the following architecture:
 
 - Input layer with 128 neurons and ReLU activation.
@@ -43,9 +47,11 @@ The script trains a Sequential model with the following architecture:
 - Hidden layer with 64 neurons and ReLU activation.
 - Dropout layer with 50% dropout rate.
 - Output layer with softmax activation.
+  
 The model is trained using stochastic gradient descent (SGD) with a learning rate of 0.01, decay of 1e-6, momentum of 0.9, and Nesterov accelerated gradient.
 
 __Chatbot Application__
+
 The chatbot.py script creates a simple GUI using Tkinter:
 
 - Takes user input from a text box.
