@@ -15,7 +15,7 @@ This repository contains the code for a chatbot built using TensorFlow/Keras, NL
 # Usage
 1. Ensure you have the intents.json file in the project directory. This file contains the predefined intents and responses.
 2. Train the model and run the chatbotusing the provided script.
-   ChatBot.ipynb
+   - ChatBot.ipynb
 # Training the Model and running the ChatBot
 1. Load and preprocess the data from intents.json.
 2. Train a neural network using TensorFlow/Keras to classify user inputs into predefined intents.
