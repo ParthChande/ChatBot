@@ -51,6 +51,11 @@ The script trains a Sequential model with the following architecture:
   
 The model is trained using stochastic gradient descent (SGD) with a learning rate of 0.01, decay of 1e-6, momentum of 0.9, and Nesterov accelerated gradient.
 
+![image](https://github.com/ParthChande/ChatBot/assets/119730313/90bf4177-89cc-4a76-aa93-df506336bc9b)
+![image](https://github.com/ParthChande/ChatBot/assets/119730313/2cd19220-a1a9-41ae-b871-c7d949805583)
+
+
+
 __Chatbot Application__
 
 The script creates a simple GUI using Tkinter:
@@ -58,3 +63,5 @@ The script creates a simple GUI using Tkinter:
 - Takes user input from a text box.
 - Predicts the intent using the trained model.
 - Displays the response in the chat log.
+
+![image](https://github.com/ParthChande/ChatBot/assets/119730313/760f63d9-db39-476e-a156-2749b76ba238)
