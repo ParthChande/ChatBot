@@ -1,0 +1,54 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "How are you", "Good morning", "Good afternoon"],
+            "responses": ["Hello!", "Hi there!", "Greetings!", "Good to see you!", "How can I help you today?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Take care"],
+            "responses": ["Goodbye!", "See you later!", "Take care!", "Have a great day!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "I appreciate it"],
+            "responses": ["You're welcome!", "Happy to help!", "No problem!", "My pleasure!"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["What's your name?", "Who are you?", "Tell me your name", "Can you introduce yourself?"],
+            "responses": ["I am your chatbot.", "You can call me ChatGPT.", "My name is ChatGPT.", "I am here to assist you."]
+        },
+        {
+            "tag": "age",
+            "patterns": ["How old are you?", "What's your age?", "Can you tell me your age?"],
+            "responses": ["I am timeless.", "I don't have an age like humans.", "Age is just a number!"]
+        },
+        {
+            "tag": "hours",
+            "patterns": ["What are your working hours?", "When are you available?", "Can I talk to you anytime?"],
+            "responses": ["I am available 24/7!", "You can reach out to me anytime.", "I am here whenever you need me."]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather like?", "Is it going to rain today?", "How's the weather?"],
+            "responses": ["I can't check the weather for you, but you can use a weather app.", "Try asking your weather app!", "I'm not sure, but you can find that information online."]
+        },
+        {
+            "tag": "joke",
+            "patterns": ["Tell me a joke", "Make me laugh", "Do you know any jokes?"],
+            "responses": ["Why don't scientists trust atoms? Because they make up everything!", "Why did the scarecrow win an award? Because he was outstanding in his field!", "What do you call fake spaghetti? An impasta!"]
+        },
+        {
+            "tag": "quote",
+            "patterns": ["Give me a quote", "I need some inspiration", "Tell me a motivational quote"],
+            "responses": ["The only way to do great work is to love what you do. - Steve Jobs", "Life is what happens when you're busy making other plans. - John Lennon", "The purpose of our lives is to be happy. - Dalai Lama"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["I need help", "Can you help me?", "What can you do?"],
+            "responses": ["I can assist you with a variety of tasks. Just ask!", "I'm here to help you with whatever you need.", "Feel free to ask me anything!"]
+        }
+    ]
+}
