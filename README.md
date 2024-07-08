@@ -8,8 +8,8 @@ This repository contains the code for a chatbot built using TensorFlow/Keras, NL
 - Dependencies
 # Installation
 1. Clone the repository:
-   - git clone https://github.com/ParthChande/ChatBot
-   - cd chatbot-project
+   ``git clone https://github.com/ParthChande/ChatBot``
+   ``cd chatbot-project``
 2. Install the required packages:
    - pip install -r requirements.txt
 # Usage
